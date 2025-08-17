@@ -24,7 +24,7 @@ ssh-keygen -t ed25519 -C "our github email"
 #save file as ~/.ssh/id_ed25519_gh
 
 #now save the pub key contents to github ssh keys
-cat ~/.ssh/id_ed25519_gh
+cat ~/.ssh/id_ed25519_gh.pub
 
 #now create a ssh config 
 nano ~/.ssh/config
